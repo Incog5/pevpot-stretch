@@ -14,8 +14,8 @@ For the node library just grab with npm:
 and use
 
 ```
-var stetch = require('pevpot-stetch');
-stetch(
+var stretch = require('pevpot-stretch');
+stretch(
   "00000000000000000ef86b27c174df6a412c0ce43eab1d532034555749294137",
   100000,
   function(err, data) {
@@ -38,7 +38,7 @@ OSX: `clang -O3 stretch.c -o stretch -O3 -g -Wall -I/usr/local/Cellar/openssl/1.
 Usage
 ----
 
-`./stetch blockhash [iterations]`
+`./stretch blockhash [iterations]`
 
 (If iterations is not provided, default to the pevpot 5 billion)
 
@@ -46,7 +46,7 @@ Usage
 
 Test Vectors:
 -------------
-`./stetch 00000000000000000ef86b27c174df6a412c0ce43eab1d532034555749294137 100000`
+`./stretch 00000000000000000ef86b27c174df6a412c0ce43eab1d532034555749294137 100000`
 
 39aed3d2eff372916100106e355384495d1794320d4c3cb4c2e0e48cc36bbd06
 
